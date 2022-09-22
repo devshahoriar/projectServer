@@ -9,6 +9,7 @@ const port = process.env.PORT || 9000;
 const rules = auth.rewriter({
   users: 660,
   teams: 660,
+  projects: 660,
 })
 
 server.db = router.db
